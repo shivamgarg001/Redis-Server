@@ -116,6 +116,8 @@ The project includes a custom Redis CLI client (`my_redis_cli`) based on the ope
 │   ├── RedisCommandHandler.h   # Command parsing and execution
 │   ├── RedisDatabase.h         # Data storage and management
 │   └── RedisServer.h           # TCP server implementation
+├── pics/                      
+│   └── redis.png               # Redis Server and CLI test
 ├── src/                        # Source files
 │   ├── RedisCommandHandler.cpp
 │   ├── RedisDatabase.cpp
@@ -125,6 +127,9 @@ The project includes a custom Redis CLI client (`my_redis_cli`) based on the ope
 └── my_redis_cli               # Custom Redis Client
 └── README.md                  # Documentation
 ```
+## 📱 Screenshots
+
+![Redis Server and CLI Test](./pics/redis.png)
 
 ### Design Principles
 
